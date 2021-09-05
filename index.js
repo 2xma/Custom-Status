@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Your Text Here",
+details : "Just a discord user, with experience of managing server.. feel free to DM me to hire",
 assets : {
 large_image : "Image",
-large_text : "Your Status"
+large_text : "! xma"
 },
-buttons : [{label : "Button1" , url : "Link1"},{label : "Button2",url : "Link2"}]
+buttons : [{label : "Youtube" , url : "https://www.youtube.com/channel/UCdgHSzBXjBwNOM1-EoqpQ9w"},{label : "DemonMP",url : "https://discord.gg/demonmp"}]
 }
 })
 })
-client.login({ clientId : "ApplicationID" }).catch(console.error);
+client.login({ clientId : "865172789110505503" }).catch(console.error);
